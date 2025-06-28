@@ -1,18 +1,18 @@
-# -Gene-Expression-Analysis-Breast-Cancer
+# Gene-Expression-Analysis-Breast-Cancer
 Analysis and ML classification for breast cancer subtypes using GDS1329 dataset.
 
-**📖 Overview**
+## 📖 Overview
 
 This project provides an in-depth gene expression analysis of the GDS1329 breast cancer dataset. The primary objectives are to identify differentially expressed genes among three main tumor subtypes (luminal, basal, and apocrine) and to build machine learning models to classify these subtypes based on their gene expression profiles. 
 
-**📊 Dataset**
+## 📊 Dataset
 
 - Dataset Name: GDS1329: Molecular apocrine breast tumors 
 - Source: NCBI Gene Expression Omnibus (GEO)
 - Content: 49 human breast tumor samples (Homo sapiens)
 - Platform: Affymetrix Human Genome U133A Array
 
-**⚙️ Project Workflow**
+## ⚙️ Project Workflow
 
 The analysis in this project is divided into two main stages using R and Python:
 
@@ -28,7 +28,7 @@ The analysis in this project is divided into two main stages using R and Python:
 - Trained and evaluated 7 different classification models.
 - Assessed each model's performance using 5-fold cross-validation, confusion matrices, and ROC-AUC curves. 
 
-📈 Key Results & Model Performance
+## Key Results & Model Performance
 **Gene Expression Analysis Findings**
 
 The analysis successfully identified hundreds of genes that were significantly differentially expressed among the three tumor subtypes. The heatmap visualization of the top 50 DEGs showed clear clustering patterns, where samples from the same subtype grouped together, confirming that gene expression profiles can effectively distinguish the tumor classes. 
